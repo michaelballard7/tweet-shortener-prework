@@ -32,6 +32,6 @@ def bulk_tweet_shortener(array)
 end
 
 def selective_tweet_shortner(current_tweet)
-  current_tweet.size > 140 ? word_substituter(current_tweet) : current_tweet 
+  current_tweet.length > 140 ? word_substituter(current_tweet) : current_tweet 
 end
   
