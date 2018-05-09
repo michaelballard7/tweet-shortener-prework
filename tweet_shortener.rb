@@ -20,7 +20,7 @@ end
 def word_substituter(current_tweet)
   clean_tweet = []
   current_tweet.split(" ").each do |word|
-    dictionary.keys.include?(word) ? clean_tweet << dictionary[word] : clean_tweet << word
+    dictionary.keys.include?(word.downcase) ? clean_tweet << dictionary[word.downcase] : clean_tweet << word
   end
   clean_tweet.join(" ")
 end
