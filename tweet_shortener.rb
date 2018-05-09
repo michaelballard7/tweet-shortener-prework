@@ -15,3 +15,10 @@ def dictionary
   } 
   check
 end
+
+def word_substituter(current_tweet)
+  clean_tweet = []
+  
+  current_tweet.
+  
+end
