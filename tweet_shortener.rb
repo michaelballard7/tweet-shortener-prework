@@ -17,7 +17,7 @@ def dictionary
 end
 
 
-def word_substituter(current_tweet, dictionary)
+def word_substituter(current_tweet)
   clean_tweet = []
   current_tweet.split(" ").each do |word|
     dictionary.keys.include?(word) ? clean_tweet << dictionary[word] : clean_tweet << word
