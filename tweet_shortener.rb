@@ -1,7 +1,7 @@
 # Write your code here.
 
 def dictionary 
-  {
+  check {
     "hello" => "hi",
     "to" => "2",
     "two" => "2",
@@ -13,4 +13,5 @@ def dictionary
     "at" => "@",
     "and" => "&"
   } 
+  check
 end
