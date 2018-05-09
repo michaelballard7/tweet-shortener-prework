@@ -33,4 +33,5 @@ end
 
 def selective_tweet_shortner(current_tweet)
   current_tweet > 140 ? word_substituter(current_tweet) : current_tweet 
+end
   
